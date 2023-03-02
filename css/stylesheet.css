@@ -1,6 +1,35 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr,3fr,1fr,1fr;
+    grid-template-rows: 1fr,1fr,1fr,1fr;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    background-color: pink;
+    
+     
+}
+
 h1 {
     color: #006100;
+
 }
+nav{
+    display:flex;
+    align-items: flex-end;
+    
+    
+}
+
 main {
     background-color: #fff5ee;
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    background-color: pink;
+     
 }

@@ -27,6 +27,11 @@ main {
     background-color: #fff5ee;
 }
 
+.griditem-1{
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
 footer{
     display: flex;
     justify-content:center;
